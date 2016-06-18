@@ -52,14 +52,16 @@
 	</nav>
 <!--End Navbar -->
 <br />
+<div class="container-fluid">
 <h1 class="display-3" style="font-size: 4.5rem; line-height: 82px;
     font-weight: 300; text-align: center; color: #fff; text-shadow: rgba(0,0,0,0.75) 0px -2px 0px;">Examples from AngularJS website </h1>
+</div>
 <br />
 <!--Begin ToDo App-->
 	<div class="container">
-	  <div class="container-fluid ">
+	  <div class="container-fluid">
 	  	<div class="row">
-	  		<div class="card col-md-offset-3 col-md-5" style="margin-left:50px;">
+	  		<div class="card col-md-offset-3 col-md-5 container" >
 	   		 <div ng-controller="TodoListController as todoList">
 	   		 <h1 class="h1-text display-3" style="margin-top:10px;">Example 1 : Simple To-Do App</h1>
 	 		   <span class="lead">{{todoList.remaining()}} of {{todoList.todos.length}} remaining to </span>
@@ -89,8 +91,8 @@
 	  	</div>
 <!--End of ToDo App-->
 <!--Begin of ng-model App -->
-<div ng-app>
-	  	<div class="card col-md-5" style="margin-left:50px;">
+<div ng-app ">
+	  	<div class="card col-md-5 container-fluid" style="margin-left:2px;">
 	   		 <h1 class="h1-text display-3" style="margin-top:10px;">Example 2 : The Basics</h1>
 	 		   	<div class="input-group col-lg-12">
 	 		   	<label>Name:</label>
